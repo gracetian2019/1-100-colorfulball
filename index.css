@@ -1,0 +1,30 @@
+
+#gameArea{
+    border:4px solid #86A8E7;
+}
+body {
+    background-image: radial-gradient(circle, #6bd1c4, #58ccd1, #4ec6dd, #54bfe6, #66b6ea, #67b9ef, #68bcf3, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    text-align: center;
+    overflow: hidden;
+}
+h1{
+   font-family: Comic Sans MS; 
+   color: #7A8587;
+   text-transform: uppercase;
+   letter-spacing: .1em;
+   height: 400px;
+   width: 800px;
+}
+.box {
+	height: 100px;
+	width: 200px;
+    animation: move 2s ease-in-out 1s infinite alternate both;
+}
+
+.box-text {
+	background:#B6EAFF;
+    margin: 0;
+}
+@keyframes move {
+    to {transform: translate(5vw, 2vh) scaleX(1.2) skewY(5deg);}
+}
